@@ -1,0 +1,43 @@
+{
+	"^A" = "moveToBeginningOfParagraphAndModifySelection:";
+	"^E" = "moveToEndOfParagraphAndModifySelection:";
+	"^w" = "deleteWordBackward:";
+	"^W" = "deleteWordForward:";
+	"^g" = "moveWordForward:";
+	"^G" = "moveWordForwardAndModifySelection:";
+	"^s" = "moveWordBackward:";
+	"^S" = "moveWordBackwardAndModifySelection:";
+	"^$J" = (
+		"moveToEndOfLine:",
+		"deleteForward:",
+		"insertText:",
+		" ",
+	);
+	"^$K" = (
+		"moveToBeginningOfLine:",
+		"deleteToEndOfLine:",
+		"deleteForward:",
+	);
+	"^m" = {
+		"^m" = "setMark:";
+		m = "setMark:";
+		"^k" = "deleteToMark:";
+		k = "deleteToMark:";
+		"^s" = "selectToMark:";
+		s = "selectToMark:";
+		"^w" = "swapWithMark:";
+		w = "swapWithMark:";
+	};
+	"^x" = {
+		"^w" = "selectWord:";
+		w = "selectWord:";
+		"^l" = "selectLine:";
+		l = "selectLine:";
+		"^p" = "selectParagraph:";
+		p = "selectParagraph:";
+		"^a" = "selectAll:";
+		a = "selectAll:";
+		"^v" = "scrollLineDown:";
+		"^i" = "scrollLineUp:";
+	};
+}
