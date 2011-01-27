@@ -28,9 +28,11 @@
 		"^w" = "swapWithMark:";
 		w = "swapWithMark:";
         "^c" = ( "selectToMark:",
-                 "copy:" );
+                 "copy:",
+                 "moveForward:" );
         "c" = ( "selectToMark:",
-                "copy:" );
+                "copy:",
+                "moveForward:" );
         "^x" = ( "selectToMark:",
                  "cut:" );
         "x" = ( "selectToMark:",
