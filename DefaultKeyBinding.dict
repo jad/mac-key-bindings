@@ -27,6 +27,14 @@
 		s = "selectToMark:";
 		"^w" = "swapWithMark:";
 		w = "swapWithMark:";
+        "^c" = ( "selectToMark:",
+                 "copy:" );
+        "c" = ( "selectToMark:",
+                "copy:" );
+        "^x" = ( "selectToMark:",
+                 "cut:" );
+        "x" = ( "selectToMark:",
+                "cut:" );
 	};
 	"^x" = {
 		"^w" = "selectWord:";
