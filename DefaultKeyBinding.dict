@@ -1,4 +1,5 @@
 {
+	"^u" = "pageUp:";
 	"^A" = "moveToBeginningOfParagraphAndModifySelection:";
 	"^E" = "moveToEndOfParagraphAndModifySelection:";
 	"^w" = "deleteWordBackward:";
