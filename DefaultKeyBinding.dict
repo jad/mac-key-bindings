@@ -49,6 +49,6 @@
 		"^a" = "selectAll:";
 		a = "selectAll:";
 		"^v" = "scrollLineDown:";
-		"^i" = "scrollLineUp:";
+		"^u" = "scrollLineUp:";
 	};
 }
