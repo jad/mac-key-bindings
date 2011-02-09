@@ -2,4 +2,5 @@
 	"^u" = "pageUp:";
 	"^g" = "moveWordForward:";
 	"^s" = "moveWordBackward:";
+	"^~y" = "yankAndSelect:";
 }
