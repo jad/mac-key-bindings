@@ -1,6 +1,54 @@
 {
 	"^u" = "pageUp:";
+	"^A" = "moveToBeginningOfParagraphAndModifySelection:";
+	"^E" = "moveToEndOfParagraphAndModifySelection:";
+	"^w" = "deleteWordBackward:";
+	"^W" = "deleteWordForward:";
 	"^g" = "moveWordForward:";
+	"^G" = "moveWordForwardAndModifySelection:";
 	"^s" = "moveWordBackward:";
-	"^~y" = "yankAndSelect:";
+	"^S" = "moveWordBackwardAndModifySelection:";
+	"^$J" = (
+		"moveToEndOfLine:",
+		"deleteForward:",
+		"insertText:",
+		" ",
+	);
+	"^$K" = (
+		"moveToBeginningOfLine:",
+		"deleteToEndOfLine:",
+		"deleteForward:",
+	);
+	"^m" = {
+		"^m" = "setMark:";
+		m = "setMark:";
+		"^k" = "deleteToMark:";
+		k = "deleteToMark:";
+		"^s" = "selectToMark:";
+		s = "selectToMark:";
+		"^w" = "swapWithMark:";
+		w = "swapWithMark:";
+        "^c" = ( "selectToMark:",
+                 "copy:",
+                 "moveForward:" );
+        "c" = ( "selectToMark:",
+                "copy:",
+                "moveForward:" );
+        "^x" = ( "selectToMark:",
+                 "cut:" );
+        "x" = ( "selectToMark:",
+                "cut:" );
+	};
+	"^x" = {
+		"^w" = "selectWord:";
+		w = "selectWord:";
+		"^l" = "selectLine:";
+		l = "selectLine:";
+		"^p" = "selectParagraph:";
+		p = "selectParagraph:";
+		"^a" = "selectAll:";
+		a = "selectAll:";
+		"^v" = "scrollLineDown:";
+		"^u" = "scrollLineUp:";
+	};
 }
