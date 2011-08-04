@@ -1,4 +1,5 @@
 {
+	"^w" = "deleteWordBackward:";
 	"^u" = "pageUp:";
 	"^g" = "moveWordForward:";
 	"^s" = "moveWordBackward:";
